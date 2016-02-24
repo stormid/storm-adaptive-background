@@ -1,7 +1,7 @@
 {
   "name": "adaptive-background",
   "version": "0.1.0",
-  "description": "",
+  "description": "Find the dominant colours in an image and set one as the background colour of a DOM element",
   "author": "mjbp",
   "license": "MIT",
   "devDependencies": {
