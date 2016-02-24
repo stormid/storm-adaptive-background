@@ -108,7 +108,7 @@
         merge = require('merge'),
         defaults = {
             target: null,
-            exclude: ['rgb(0,0,0)', 'rgba(255,255,255)'],
+            exclude: ['rgb(0,0,0)', 'rgb(255,255,255)'],
             cssBackground: false,
             normaliseTextColour: true,
             normalisedTextColours: {
