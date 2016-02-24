@@ -18,3 +18,6 @@ StormAdaptiveBackground.init('js-equal-height',  {minWidth: 768});
 	- normalisedTextColours, Object, default: {dark: '#000', light: '#fff'} text colors used when background is either too dark/light
 	- lumaClasses
 	- callback, Function, called after colour background is set
+	
+###Credits
+A browserify object compsitional refactoring of [https://github.com/briangonzalez/jquery.adaptive-backgrounds.js (https://github.com/briangonzalez/jquery.adaptive-backgrounds.js)
