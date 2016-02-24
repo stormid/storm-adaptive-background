@@ -10,8 +10,7 @@ var STORM = (function(w, d) {
                     console.log('Success');
                 }
             });
-            
-            
+			
             /*
             AdaptiveBackground.init('#test', {
                 target: 'main',
