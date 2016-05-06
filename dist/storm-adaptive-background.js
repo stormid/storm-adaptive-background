@@ -1,6 +1,6 @@
 /**
- * @name adaptive-background: Find the dominant colours in an image and set one as the background colour of a DOM element
- * @version 0.1.0: Wed, 24 Feb 2016 20:44:43 GMT
+ * @name storm-adaptive-background: Find the dominant colours in an image and set one as the background colour of a DOM element
+ * @version 0.1.0: Tue, 01 Mar 2016 13:03:37 GMT
  * @author mjbp
  * @license MIT
  */(function(root, factory) {
@@ -113,7 +113,7 @@
         merge = require('merge'),
         defaults = {
             target: null,
-            exclude: ['rgb(0,0,0)', 'rgba(255,255,255)'],
+            exclude: ['rgb(0,0,0)', 'rgb(255,255,255)'],
             cssBackground: false,
             normaliseTextColour: true,
             normalisedTextColours: {

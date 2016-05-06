@@ -9,7 +9,7 @@ npm install storm-adaptive-background
 
 ```javascript
 var StormAdaptiveBackground = require('storm-adaptive-background')
-StormAdaptiveBackground.init('js-equal-height',  {minWidth: 768});
+StormAdaptiveBackground.init('js-adaptive-bg',  {minWidth: 768});
 ```
 
 ###Options
