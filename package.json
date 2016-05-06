@@ -1,6 +1,6 @@
 {
   "name": "storm-adaptive-background",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Find the dominant colours in an image and set one as the background colour of a DOM element",
   "author": "mjbp",
   "license": "MIT",
