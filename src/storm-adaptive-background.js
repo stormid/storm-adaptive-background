@@ -1,7 +1,5 @@
 (function(root, factory) {
-  if (typeof define === 'function' && define.amd) {
-    define([], factory);
-  } else if (typeof exports === 'object') {
+    if (typeof exports === 'object') {
     module.exports = factory();
   } else {
     root.AdaptiveBackground = factory();
@@ -15,8 +13,6 @@
     /* jshint ignore:end */
 
 	var instances = [],
-        assign = require('object-assign'),
-        merge = require('merge'),
         defaults = {
             target: null,
             exclude: ['rgb(0,0,0)', 'rgb(255,255,255)'],
@@ -87,9 +83,9 @@
         }
         
         els.forEach(function(el, i){
-            instances[i] = assign(Object.create(AdaptiveBackground), {
+            instances[i] = Object.assign(Object.create(AdaptiveBackground), {
                 DOMElement: el,
-                settings: merge({}, defaults, opts)
+                settings: Object.assign({}, defaults, opts)
             });
             //add further objects as assign arguments for object composition
             instances[i].init();
